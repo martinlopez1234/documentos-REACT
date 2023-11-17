@@ -1,0 +1,34 @@
+SUBIR PROYECTO REACT
+
+1.-	clonar desde repositorio
+	$ git clone https://github.com/martinlopez1234/react-flask-sqlalchemy
+
+2.- 	instalacion ambiente
+	py -m pip install --upgrade pip
+
+	py -m pip install virtualenv
+	
+	virtualenv venv (sino resulta la segunda )
+	dentro de VSC python -m venv venv
+
+	venv\Scripts\activate
+
+	pip install Flask SQLAlchemy (X2)
+	pip show Flask-SQLAlchemy
+
+	pip install Flask-CORS
+
+	correr seridor
+	python app.py
+	npm run isntall
+
+	-adicional en cmd 
+	npm install
+
+3.- paso instalacion bd
+
+	-crear en dbeaver db sqlite y darle a open y buscar archivo en carpeta proyecto.
+
+4.- 
+	instalar axios 
+	configurar app.py axios
