@@ -1,0 +1,11 @@
+pasos para correr el proyecto en gitpod (solo falta como conectar bd)
+
+1. dar acceso a los permisos del ambiente virtual
+chmod -R u+rwx venv/Scripts/activate
+
+2. activar el ambiente
+venv/Scripts/activate
+
+3. activar el servidor
+
+python app.py
