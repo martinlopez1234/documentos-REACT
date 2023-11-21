@@ -1,0 +1,5 @@
+1.dentro del entorno virtual descargar paquete de jwt
+pip install Flak Flask-JWT-Extended
+
+2. en el caso de tener problemas con la libreria jwt-decode la cula sirve para decodificar el token
+fuera del entorno virual esrbir npm install jwt-decode
