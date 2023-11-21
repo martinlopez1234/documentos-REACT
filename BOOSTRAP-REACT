@@ -1,0 +1,13 @@
+Hay dos maneras de usar boostrap en react
+1. usar cdn, la cual uno tiene que ir a la carpeta public y en el archibo index.html dejar este link en el head 
+  <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous"
+/>
+
+2. descagar como npm boostrap 
+npm install bootstrap@5.3.0  (la version puede ser cualquiera yo deje la ultima en este momento)
+y luego en index.js dejar importado boostrap 
+import 'bootstrap/dist/css/bootstrap.min.css';
